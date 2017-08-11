@@ -1,0 +1,23 @@
+# publisher: Juergen Smolka 
+# info-page: http://teatimer.coolpage.biz/
+name: ttimer
+version: "0.0.1"
+summary: tea-timer for systems w/o java
+description: tea-timer for systems w/o java --- if java (incl. web start, check with command javaws) is installed already, you might prefer the lean version which you can download and install via http://teatimer.coolpage.biz/j.smolka/ibs/programme/teeuhr/aTeaTimer4U.jnlp -------------------------------------------------------------------------------- this first snap version is without sound on start and during running because the sound caused some trouble.
+grade: stable         # must be 'stable' to release into candidate/stable channels
+confinement: strict   # use 'strict' once you have the right plugs and slots
+icon: bin/icon.png
+
+apps:
+  ttimer:
+    command: bin/ttimer
+    desktop: bin/ttimer.desktop
+    plugs: [browser-support, home, network, pulseaudio, unity7, x11]    
+
+parts:
+  java-jre:
+    plugin: jdk
+    source: .
+  app-wrapper:
+    plugin: dump
+    source: .
