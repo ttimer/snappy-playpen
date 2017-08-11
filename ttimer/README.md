@@ -1,5 +1,6 @@
 
 Already created for Ubuntu/i386: 
+
 sudo snap install ttimer
 
 Feel free to transform ... 
@@ -13,5 +14,5 @@ and these four files had been used only:
   - bin/icon.png
   - bin/ttimer
 
-The ttimer file is a shellscript with a jar file as payload. 
+The ttimer file is a shell script with a jar file as payload. 
 
