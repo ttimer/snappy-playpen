@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_US]=Java Application [SNAP]
+Comment=Java Application [SNAP]
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/ttimer.desktop /snap/bin/ttimer %U
+GenericName[en_US]=Timer
+GenericName=Timer
+Icon=/snap/ttimer/current/meta/gui/icon.png
+Keywords=hourglass;timer;tea-timer;egg-timer;
+MimeType=
+Name[en_US]=a Tea Timer 4 U
+Name=a Tea Timer 4 U
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
