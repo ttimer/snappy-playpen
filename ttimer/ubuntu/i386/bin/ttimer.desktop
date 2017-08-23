@@ -6,6 +6,7 @@ Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/ttimer.deskt
 GenericName[en_US]=Timer
 GenericName=Timer
 Icon=/snap/ttimer/current/meta/gui/icon.png
+X-Icon=/var/lib/snapd/snap/ttimer/current/meta/gui/icon.png
 Keywords=hourglass;timer;tea-timer;egg-timer;
 MimeType=
 Name[en_US]=a Tea Timer 4 U
@@ -13,7 +14,6 @@ Name=a Tea Timer 4 U
 Path=
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=

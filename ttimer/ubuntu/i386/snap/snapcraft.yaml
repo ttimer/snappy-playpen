@@ -12,7 +12,7 @@ apps:
   ttimer:
     command: bin/ttimer
     desktop: bin/ttimer.desktop
-    plugs: [browser-support, home, network, pulseaudio, unity7, x11]    
+    plugs: [home, network, pulseaudio, unity7, x11]    
 
 parts:
   java-jre:
